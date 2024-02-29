@@ -1,0 +1,74 @@
+header {
+    text-align: center;
+}
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.map {
+    width: 1000px;
+}
+h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #9396c2;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.flag {
+    width: 40px;
+    margin: 0 10px 0 0;
+}
+.country-list {
+    width: 100%;
+    list-style-type: none;
+    column-count: 3;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    background-color: #FAFAFA;
+    padding: 30px;
+    font-size: 24px;
+    margin: 0;
+}
+.country-list li {
+    padding-bottom: 10px;
+}
+.country-list li div {
+    display: flex;
+}
+.country {
+    color: #5b5b5b;
+    font-weight: 700;
+}
+.population {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.blue {
+  color: #5575C2;
+}
+.green {
+  color: #4C824B;
+}
+.red {
+  color: #D14E5B;
+}
+.yellow {
+    color: #FFD435;
+}
+.purple {
+    color: #A653BA;
+}
+
+
