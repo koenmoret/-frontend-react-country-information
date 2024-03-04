@@ -26,6 +26,9 @@ h2 {
     border: none;
     cursor: pointer;
 }
+.clickEvent {
+    cursor: pointer;
+}
 .flag {
     width: 40px;
     margin: 0 10px 0 0;
@@ -69,6 +72,48 @@ h2 {
 }
 .purple {
     color: #A653BA;
+}
+
+.search-form {
+    margin: 0 auto 20px auto;
+}
+
+.search-form button {
+    text-transform: uppercase;
+    background-color: #A7D160;
+    border: 1px solid #A7D160;
+    border-radius: 0 10px 10px 0;
+    padding: 8px 12px;
+    color: #292929;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.search-form input {
+    border: 1px solid gray;
+    border-right-color: transparent;
+    margin-right: -4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 8px;
+    border-radius: 10px 0 0 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.search-result-box {
+    border-radius: 10px;
+    padding: 24px;
+    margin: 72px 0;
+}
+
+.search-result-box h2 {
+    font-size: 36px;
+    padding: 0 0 12px 0;
+}
+
+.search-result-box p {
+    padding: 8px 0;
 }
 
 
